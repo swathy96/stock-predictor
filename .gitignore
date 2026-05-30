@@ -1,0 +1,13 @@
+# Secrets — never commit these
+.env
+
+# Go compiled binaries
+services/*/tmp/
+*.exe
+
+# Angular build output and dependencies
+frontend/node_modules/
+frontend/dist/
+
+# OS junk
+.DS_Store
